@@ -1,1 +1,1 @@
-napisz program :
+
