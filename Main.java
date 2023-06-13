@@ -1,4 +1,4 @@
-/*public class Main {
+public class Main {
     public static void main(String[] args) {
         int height = 10; // Wysokość trójkąta
 
@@ -17,7 +17,7 @@
         }
     }
 }
-*/
+
 import java.lang.Math;
 
 public class Main {
