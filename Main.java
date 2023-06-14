@@ -55,5 +55,23 @@ int [][] array=new int[10][10];
 
 -Napisz program, który usuwa wszystkie spacje z łańcucha.
 
+import java.util.Scanner;
 
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Wprowadź łańcuch znaków:");
+        String input = scanner.nextLine();
+
+        String result = removeSpaces(input);
+        System.out.println("Wynik: " + result);
+
+        scanner.close();
+    }
+
+    public static String removeSpaces(String input) {
+        return input.replaceAll(" ", "");
+    }
+}
 
