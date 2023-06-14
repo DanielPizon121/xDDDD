@@ -53,6 +53,7 @@ int [][] array=new int[10][10];
 }
 }
 
+-Napisz program, który usuwa wszystkie spacje z łańcucha.
 
 
 
